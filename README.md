@@ -1,10 +1,17 @@
 # dvlopt.spi
 
-Some code to make dreams come true.
+Certain linux systems expose
+[SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) channels as
+devices.
+
+This clojure library aims to provide a simple interface for talking to devices.
 
 ## Usage
 
-Sorry, you'll have to figure out. Maybe there is some kind of documentation somewhere ?
+For the time being, this library is very much an experiment.
+
+Read source, autogen documentation with codox, and try it out. We recommend the
+Raspberry Pi for doing so.
 
 ## References
 
