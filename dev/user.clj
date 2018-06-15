@@ -10,7 +10,7 @@
             [clojure.test.check.properties   :as tprop]
             [clojure.test                    :as t]
             [criterium.core                  :as ct]
-            [dvlopt.spi                      :as spi])
+            [dvlopt.linux.spi                :as spi])
   (:import (com.sun.jna Memory
                         Native
                         NativeLong
@@ -19,6 +19,15 @@
                        Spi$Requests
                        SpiIOCTransfer)
            java.io.RandomAccessFile))
+
+
+
+
+;;;;;;;;;;
+
+
+(set! *warn-on-reflection*
+      true)
 
 
 

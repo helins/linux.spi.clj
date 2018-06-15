@@ -1,4 +1,4 @@
-(ns dvlopt.spi
+(ns dvlopt.linux.spi
 
   "Talk to SPI devices from Linux."
 

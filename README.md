@@ -1,10 +1,11 @@
-# dvlopt.spi
+# dvlopt.linux.spi
 
 Certain linux systems expose
 [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) channels as
 devices.
 
-This clojure library aims to provide a simple interface for talking to devices.
+This clojure library aims to provide a simple interface for talking to slave SPI
+devices.
 
 ## Usage
 
@@ -20,7 +21,7 @@ Raspberry Pi for doing so.
 
 ## License
 
-Copyright © 2017-2018 Adam Helinski
+Copyright © 2017 Adam Helinski
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
